@@ -1,15 +1,3 @@
-SERVICES
-DOCUMENTS
-Untitled Document.md
-Project tracking, teamwork & client reporting like you've never seen before. Start Your Free Trial Now.
-PREVIEW AS 
-EXPORT AS 
-SAVE TO 
-IMPORT FROM 
-DOCUMENT NAME
-Untitled Document.md
-MARKDOWN PREVIEW Toggle Mode
-  
 <p>Bienvenido al Internet de las Cosas.</p>
 <p>Para comenzar a utilizar tu ESP32-CAM y encontrar toda la información técnica, te recomendamos las siguientes ligas:</p>
 <p>Grupo de Facebook en español sobre Internet de las Cosas:<br>
