@@ -1,37 +1,47 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/cosismo/espp32-cam/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/cosismo/espp32-cam/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+SERVICES
+DOCUMENTS
+Untitled Document.md
+Project tracking, teamwork & client reporting like you've never seen before. Start Your Free Trial Now.
+PREVIEW AS 
+EXPORT AS 
+SAVE TO 
+IMPORT FROM 
+DOCUMENT NAME
+Untitled Document.md
+MARKDOWN PREVIEW Toggle Mode
+  
+<p>Bienvenido al Internet de las Cosas.</p>
+<p>Para comenzar a utilizar tu ESP32-CAM y encontrar toda la información técnica, te recomendamos las siguientes ligas:</p>
+<p>Grupo de Facebook en español sobre Internet de las Cosas:<br>
+<a href="https://www.facebook.com/groups/724628401049648/">https://www.facebook.com/groups/724628401049648/</a></p>
+<ul>
+<li>Información específica sobre el ESP32 CAM:</li>
+</ul>
+<p>Video de cómo configurar la cámara (Inglés):<br>
+ESP32-CAM Video Streaming and Face Recognition with Arduino IDE<br>
+<a href="https://www.youtube.com/watch?v=MicAM_A0_lU">https://www.youtube.com/watch?v=MicAM_A0_lU</a></p>
+<p>Tutorial escrito del video anterior:<br>
+<a href="https://randomnerdtutorials.com/esp32-cam-video-streaming-face-recognition-arduino-ide/">https://randomnerdtutorials.com/esp32-cam-video-streaming-face-recognition-arduino-ide/</a></p>
+<p>Cuando se está programando, es necesario conectar IO0 a tierra, antes de energizar,  para entrar en modo boot. El voltaje de los puertos ( y de los pines TX, RX de la UART) es de 3.3v, aunque la tarjeta tiene un pin para alimentarse con 5V.</p>
+<p>Hoja de especificaciones técnicas:<br>
+<a href="https://drive.google.com/file/d/11m5DbaZ4C7bbMHccGwkEZLNfd2bzMjy7/view?usp=sharing">https://drive.google.com/file/d/11m5DbaZ4C7bbMHccGwkEZLNfd2bzMjy7/view?usp=sharing</a></p>
+<ul>
+<li>Información general sobre el ESP32:</li>
+</ul>
+<p>Libro electrónico sobre el ESP32:<br>
+<a href="https://drive.google.com/file/d/11-IH-38VJOXbFJ1ybB1i2Cvcl9n3pSTU/view">https://drive.google.com/file/d/11-IH-38VJOXbFJ1ybB1i2Cvcl9n3pSTU/view</a></p>
+<p>Listas con decenas de videos con ejemplos y código de proyectos con ESP32:<br>
+Tutoriales básicos en español:<br>
+<a href="https://www.youtube.com/playlist?list=PL2xmtLUbEugnUoLiRTqwCm5wi2MSzsw3D">https://www.youtube.com/playlist?list=PL2xmtLUbEugnUoLiRTqwCm5wi2MSzsw3D</a><br>
+Inglés:<br>
+<a href="https://www.youtube.com/watch?v=rP9p0MzxSos&amp;list=PLxJ8_KSR8bp5-F4HVG4QOm4Kt6wQhzsjU">https://www.youtube.com/watch?v=rP9p0MzxSos&amp;list=PLxJ8_KSR8bp5-F4HVG4QOm4Kt6wQhzsjU</a><br>
+<a href="https://www.youtube.com/watch?v=jhjZZkKupk8&amp;list=PL3XBzmAj53RnZPeWe799F-uoXERBldhn9">https://www.youtube.com/watch?v=jhjZZkKupk8&amp;list=PL3XBzmAj53RnZPeWe799F-uoXERBldhn9</a></p>
+<p>Información oficial del fabricante del chip:<br>
+<a href="https://espressif.com/en/producttype/esp-wroom-32">https://espressif.com/en/producttype/esp-wroom-32</a></p>
+<p>Librerías oficiales Arduino:<br>
+<a href="https://github.com/espressif/arduino-esp32">https://github.com/espressif/arduino-esp32</a></p>
+<p>Foro y mucha información:<br>
+<a href="https://esp32.com/">https://esp32.com/</a></p>
+<p>Quedamos a tus órdenes por esta vía.</p>
+<p>¡Suerte!<br>
+Equipo Cosismo</p>
