@@ -11,7 +11,7 @@ ESP32-CAM Video Streaming and Face Recognition with Arduino IDE<br>
 <p>Tutorial escrito del video anterior:<br>
 <a href="https://randomnerdtutorials.com/esp32-cam-video-streaming-face-recognition-arduino-ide/">https://randomnerdtutorials.com/esp32-cam-video-streaming-face-recognition-arduino-ide/</a></p>
 <p>Cuando se está programando, es necesario conectar IO0 a tierra, antes de energizar,  para entrar en modo boot. El voltaje de los puertos ( y de los pines TX, RX de la UART) es de 3.3v, aunque la tarjeta tiene un pin para alimentarse con 5V.</p>
-<p>Diagrama de conexxiones:<br>
+<p>Diagrama de conexiones:<br>
 <a href="https://http2.mlstatic.com/esp32cam-modulo-esp32-cam-camara-ov2640-arduino-wifi-ble-D_NQ_NP_603712-MLM30975058859_062019-F.webp">https://http2.mlstatic.com/esp32cam-modulo-esp32-cam-camara-ov2640-arduino-wifi-ble-D_NQ_NP_603712-MLM30975058859_062019-F.webp</a></p>
 <p>Hoja de especificaciones técnicas:<br>
 <a href="https://drive.google.com/file/d/11m5DbaZ4C7bbMHccGwkEZLNfd2bzMjy7/view?usp=sharing">https://drive.google.com/file/d/11m5DbaZ4C7bbMHccGwkEZLNfd2bzMjy7/view?usp=sharing</a></p>
