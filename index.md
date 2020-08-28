@@ -16,6 +16,10 @@ ESP32-CAM Video Streaming and Face Recognition with Arduino IDE<br>
 <p>Hoja de especificaciones técnicas:<br>
 <a href="https://drive.google.com/file/d/11m5DbaZ4C7bbMHccGwkEZLNfd2bzMjy7/view?usp=sharing">https://drive.google.com/file/d/11m5DbaZ4C7bbMHccGwkEZLNfd2bzMjy7/view?usp=sharing</a></p>
 <ul>
+<p>Ejemplos de cientos de proyectos para la ESP32-CAM en Github<br>
+<a href="https://github.com/search?o=desc&q=esp32-cam&s=stars&type=Repositories">  https://github.com/search?o=desc&q=esp32-cam&s=stars&type=Repositories
+</a></p>
+ 
 <li>Información general sobre el ESP32:</li>
 </ul>
 <p>Libro electrónico sobre el ESP32:<br>
