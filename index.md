@@ -13,7 +13,7 @@ ESP32-CAM Video Streaming and Face Recognition with Arduino IDE<br>
 <p>Cuando se está programando, es necesario conectar IO0 a tierra, antes de energizar,  para entrar en modo boot. El voltaje de los puertos ( y de los pines TX, RX de la UART) es de 3.3v, aunque la tarjeta tiene un pin para alimentarse con 5V. </p>
 <p><strong>Protip:</strong> En ocasiones puede no ser suficiente la alimentación a través del convertidor USB a TTL.  Si te es posible o si tienes problemas de errores, te recomendamos usar una fuente de alimentación externa de 5V y conectarla al pin corespondiente (5V).</p>
 <p>Diagrama de conexiones:<br>
-<a href="https://http2.mlstatic.com/esp32cam-modulo-esp32-cam-camara-ov2640-arduino-wifi-ble-D_NQ_NP_603712-MLM30975058859_062019-F.webp">https://http2.mlstatic.com/esp32cam-modulo-esp32-cam-camara-ov2640-arduino-wifi-ble-D_NQ_NP_603712-MLM30975058859_062019-F.webp</a></p>
+<a href="https://http2.mlstatic.com/D_NQ_NP_2X_989716-MLM44654523243_012021-F.webp">https://http2.mlstatic.com/D_NQ_NP_2X_989716-MLM44654523243_012021-F.webp</a></p>
 <p>Hoja de especificaciones técnicas:<br>
 <a href="https://drive.google.com/file/d/11m5DbaZ4C7bbMHccGwkEZLNfd2bzMjy7/view?usp=sharing">https://drive.google.com/file/d/11m5DbaZ4C7bbMHccGwkEZLNfd2bzMjy7/view?usp=sharing</a></p>
 <p>Ejemplos de cientos de proyectos para la ESP32-CAM en Github<br>
