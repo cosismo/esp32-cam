@@ -20,7 +20,7 @@ ASEGÚRATE QUE TU CONVERTIDOR USB-TTL ESTÉ CONFIGURADO CON 3.3V EN LOS PUERTOS 
 
 Diagrama de conexiones:  
 
-![esp32camCh340g](https://raw.githubusercontent.com/cosismo/esp32-cam/master/esp32ToCh340g.png)  
+![esp32camCh340g](https://raw.githubusercontent.com/cosismo/esp32-cam/master/esp32ToCh340gv2.png)  
 
 <p>Hoja de especificaciones técnicas:<br>
 <a href="https://drive.google.com/file/d/11m5DbaZ4C7bbMHccGwkEZLNfd2bzMjy7/view?usp=sharing">https://drive.google.com/file/d/11m5DbaZ4C7bbMHccGwkEZLNfd2bzMjy7/view?usp=sharing</a></p>
