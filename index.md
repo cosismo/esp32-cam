@@ -19,9 +19,7 @@ ESP32-CAM Video Streaming and Face Recognition with Arduino IDE<br>
 ASEGÚRATE QUE TU CONVERTIDOR USB-TTL ESTÉ CONFIGURADO CON 3.3V EN LOS PUERTOS DE COMUNICACIÓN (LÓGICA 3.3V). En muchos convertidores se cambia el voltaje a la lógica de 3.3v con un jumper. En caso que uses el convertidor usb-ttl ch340, sigue exactamente el diagrama de la parte de abajo con el jumper amarillo colocado como se indica y quedará configurado en 3.3v. Para otros convertidores consulta el manual del fabricante para saber cómo configurar a lógica 3.3v (generalmente con un jumper o a veces a través de soldadura). BAJO NINGUNA CIRCUNSTANCIA USES UN CONVERTIDOR CON SALIDAS 5V FIJAS (COMO ALGUNOS PL2303, QUE NO TIENEN FORMA DE SELECCIONAR EL VOLTAJE). SI USAS LÓGICA  5V, PROBABLEMENTE TE MARCARÁ UN ERROR O ALGUNA VEZ FUNCIONARÁ, PERO EL MÓDULO NO ESTÁ DISEÑADA PARA TOLERAR ESTO Y <strong>EVENTUALMENTE DAÑARÁS IRREVERSIBLEMENTE LA PLACA</strong></p>
 
 <p>Diagrama de conexiones:<br>  
-  
-![esp32cam ch340g](https://raw.githubusercontent.com/cosismo/esp32-cam/master/esp32ToCh340g.png)
-
+![esp32camCh340g](https://raw.githubusercontent.com/cosismo/esp32-cam/master/esp32ToCh340g.png)
 <p>Hoja de especificaciones técnicas:<br>
 <a href="https://drive.google.com/file/d/11m5DbaZ4C7bbMHccGwkEZLNfd2bzMjy7/view?usp=sharing">https://drive.google.com/file/d/11m5DbaZ4C7bbMHccGwkEZLNfd2bzMjy7/view?usp=sharing</a></p>
 <p>Ejemplos de cientos de proyectos para la ESP32-CAM en Github<br>
