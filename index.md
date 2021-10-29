@@ -9,8 +9,9 @@
 Dependiendo del lote, puede venir separada la cámara en el módulo. La instalación es un proceso muy simple, la cámara usa un conector "tipo bisagra".  El siguiente video muestra cómo conectarla.<br>
 <a href="https://www.youtube.com/watch?v=olSRkJEkUCU&ab_channel=CosismoIoT">https://www.youtube.com/watch?v=olSRkJEkUCU&ab_channel=CosismoIoT</a></p>
 <p>
-    <li>Información para convertidor/programador ESP32-CAM-MB</li>
-![ESP32-CAM-MB](https://raw.githubusercontent.com/cosismo/esp32-cam/master/ESP32-CAM-MB.jpg) 
+    <li>Información para convertidor/programador ESP32-CAM-MB</li>  
+    
+![ESP32-CAM-MB](https://raw.githubusercontent.com/cosismo/esp32-cam/master/ESP32-CAM-MB.png) 
 <p>Tutorial para usar la cámara con el programador ESP32-CAM-MB  (Inglés):<br>
  <a href="https://randomnerdtutorials.com/upload-code-esp32-cam-mb-usb/">https://randomnerdtutorials.com/upload-code-esp32-cam-mb-usb/</a></p>
   <p>
