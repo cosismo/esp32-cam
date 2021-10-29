@@ -8,7 +8,11 @@
 <p>Cómo instalar la cámara en el módulo:<br>
 Dependiendo del lote, puede venir separada la cámara en el módulo. La instalación es un proceso muy simple, la cámara usa un conector "tipo bisagra".  El siguiente video muestra cómo conectarla.<br>
 <a href="https://www.youtube.com/watch?v=olSRkJEkUCU&ab_channel=CosismoIoT">https://www.youtube.com/watch?v=olSRkJEkUCU&ab_channel=CosismoIoT</a></p>
-<p>Video de cómo configurar la cámara (Inglés):<br>
+<p>
+<p>Tutorial para usar la cámara con el programador ESP32-CAM-MB  (Inglés):<br>
+ <a href="https://randomnerdtutorials.com/upload-code-esp32-cam-mb-usb/">https://randomnerdtutorials.com/upload-code-esp32-cam-mb-usb/</a></p>
+  <p>
+<p>Video de cómo configurar la cámara con un convertidor USB a ttl convencional(Inglés):<br>
 ESP32-CAM Video Streaming and Face Recognition with Arduino IDE<br>
 <a href="https://www.youtube.com/watch?v=MicAM_A0_lU">https://www.youtube.com/watch?v=MicAM_A0_lU</a></p>
 <p>Tutorial escrito del video anterior:<br>
