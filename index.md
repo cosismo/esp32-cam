@@ -19,10 +19,9 @@ Protip: para cargar el sketch / bin a tu ESP32:
 Si no sigues el procedimiento probablemente no puedas cargar el sketch y se te presentarán errores de tiemout o como los que se describen en este post:  
 [https://github.com/espressif/arduino-esp32/issues/1253](https://github.com/espressif/arduino-esp32/issues/1253) 
 
-Existen dos modelos de la esp32cam, con convertidor inclúído y con convertidor separado. Dependiendo del modelo, la forma es diferente, pero las instrucciones son básicamente las mismas.
-
-Sólo, en el Arduino IDE:
-0) Instala las librerías de ESP32 Arduino con el método de json en 
+Existen dos modelos de la esp32cam, con convertidor inclúído y con convertidor separado. Dependiendo del modelo, la apariencia física es diferente, pero las instrucciones son básicamente las mismas.  
+En el Arduino IDE:  
+0) Instala las librerías de ESP32 Arduino con el método de json en preferencias.
 1) Selecciona el modelo AI-Thinker ESP32-CAM. 
 2) Modifica el código agregando las credenciales de tu red WiFi al ejemplo.  
 3) Sube el ejemplo: ESP32 > Camera > CameraWebServer.
