@@ -21,7 +21,7 @@ Si no sigues el procedimiento probablemente no puedas cargar el sketch y se te p
 
 Existen dos modelos de la esp32cam, con convertidor inclúído y con convertidor separado. Dependiendo del modelo, la apariencia física es diferente, pero las instrucciones son básicamente las mismas.  
 En el Arduino IDE:  
-1) Instala las librerías de ESP32 Arduino con el método de json en preferencias.[Instalar ESP32 en Arduino IDE](https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/)  
+1) Instala las librerías de ESP32 Arduino con el método de json en preferencias. [Instalar ESP32 en Arduino IDE](https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/)  
 2) Selecciona el modelo AI-Thinker ESP32-CAM.  
 3) Modifica el código agregando las credenciales de tu red WiFi al ejemplo.  
 4) Sube el ejemplo: ESP32 > Camera > CameraWebServer.  
