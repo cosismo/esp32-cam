@@ -15,9 +15,9 @@ Dependiendo del lote, puede venir separada la cámara en el módulo. La instalac
 [https://www.youtube.com/watch?v=olSRkJEkUCU&ab\_channel=CosismoIoT](https://www.youtube.com/watch?v=olSRkJEkUCU&ab_channel=CosismoIoT)
 
 Protip: para cargar el sketch / bin a tu ESP32:  
-1) Presiona y deja presionado el botón "boot" (también conocido como "load").  
-2) Sin soltar el botón "boot", presiona y suelta el botón reset.  
-3) Sube el sketch siempre dejando presionado el botón "boot".  
+1) Presiona y deja presionado el botón "boot" (también conocido como "load" o "download").  
+2) Sin soltar el botón "boot", presiona y suelta el botón "reset".  
+3) Sube el sketch desde el Arduino IDE, siempre dejando presionado el botón "boot".  
   
 Si no sigues el procedimiento probablemente no puedas cargar el sketch y se te presentarán errores de timeout o como los que se describen en este post:  
 [https://github.com/espressif/arduino-esp32/issues/1253](https://github.com/espressif/arduino-esp32/issues/1253) 
