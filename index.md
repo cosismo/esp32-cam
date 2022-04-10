@@ -21,10 +21,10 @@ Si no sigues el procedimiento probablemente no puedas cargar el sketch y se te p
 
 Existen dos modelos de la esp32cam, con convertidor inclúído y con convertidor separado. Dependiendo del modelo, la apariencia física es diferente, pero las instrucciones son básicamente las mismas.  
 En el Arduino IDE:  
-0) Instala las librerías de ESP32 Arduino con el método de json en preferencias.
-1) Selecciona el modelo AI-Thinker ESP32-CAM. 
-2) Modifica el código agregando las credenciales de tu red WiFi al ejemplo.  
-3) Sube el ejemplo: ESP32 > Camera > CameraWebServer.
+1) Instala las librerías de ESP32 Arduino con el método de json en preferencias.  
+2) Selecciona el modelo AI-Thinker ESP32-CAM. 
+3) Modifica el código agregando las credenciales de tu red WiFi al ejemplo.  
+4) Sube el ejemplo: ESP32 > Camera > CameraWebServer.
 
 Esta placa no cuenta con un LED de energía, por lo que cuando lo conectes no verás que encienda ninguna luz para indicar que está energizada. Tiene dos LEDs, ambos programables por software. Uno es de uso general y el otro hace las veces de "Flash" para la cámara.
 
