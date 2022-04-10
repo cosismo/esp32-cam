@@ -1,4 +1,4 @@
-[ESP32 CAM](https://raw.githubusercontent.com/cosismo/esp32-cam/master/ESP32-CAM-versions.png)
+![ESP32 CAM](https://raw.githubusercontent.com/cosismo/esp32-cam/master/ESP32-CAM-versions.png)
 Bienvenido al Internet de las Cosas.
 
 Para comenzar a utilizar tu ESP32-CAM y encontrar toda la información técnica, te recomendamos las siguientes ligas:
