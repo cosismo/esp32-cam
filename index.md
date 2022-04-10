@@ -11,7 +11,7 @@ Dependiendo del lote, puede venir separada la cámara en el módulo. La instalac
 <p>
     <li><strong>Información para convertidor/programador ESP32-CAM-MB</strong></li>  
     
-![ESP32-CAM-MB](https://raw.githubusercontent.com/cosismo/esp32-cam/master/ESP32-CAM-MB.png) 
+![ESP32 CAM MB](https://raw.githubusercontent.com/cosismo/esp32-cam/master/ESP32-CAM-MB.png)
 <p>Tutorial para usar la cámara con el programador ESP32-CAM-MB  (Inglés):<br>
  <a href="https://randomnerdtutorials.com/upload-code-esp32-cam-mb-usb/">https://randomnerdtutorials.com/upload-code-esp32-cam-mb-usb/</a></p>
   <p>
