@@ -11,28 +11,31 @@ Cómo instalar la cámara en el módulo:
 Dependiendo del lote, puede venir separada la cámara en el módulo. La instalación es un proceso muy simple, la cámara usa un conector "tipo bisagra". El siguiente video muestra cómo conectarla.  
 [https://www.youtube.com/watch?v=olSRkJEkUCU&ab\_channel=CosismoIoT](https://www.youtube.com/watch?v=olSRkJEkUCU&ab_channel=CosismoIoT)
 
-*   **Información para convertidor/programador ESP32-CAM-MB**
-![ESP32 CAM MB](https://raw.githubusercontent.com/cosismo/esp32-cam/master/ESP32-CAM-MB.png)
+Protip: para cargar el sketch / bin a tu ESP32:  
+1) Presiona y deja presionado el botón "boot" (también conocido como "load").  
+2) Sin soltar el botón "boot", presiona y suelta el botón reset.  
+3) Sube el sketch siempre dejando presionado el botón "boot".  
+  
+Si no sigues el procedimiento probablemente no puedas cargar el sketch y se te presentarán errores de tiemout o como los que se describen en este post:  
+[https://github.com/espressif/arduino-esp32/issues/1253](https://github.com/espressif/arduino-esp32/issues/1253) 
 
-Tutorial para usar la cámara con el programador ESP32-CAM-MB (Inglés):  
-[https://randomnerdtutorials.com/upload-code-esp32-cam-mb-usb/](https://randomnerdtutorials.com/upload-code-esp32-cam-mb-usb/)
+Existen dos modelos de la esp32cam, con convertidor inclúído y con convertidor separado. Dependiendo del modelo, la forma es diferente, pero las instrucciones son básicamente las mismas.
 
-*   **Información para convertidor convencional USB a TTL**
-
-Video de cómo configurar la cámara con un convertidor USB a TTL convencional(Inglés):  
-ESP32-CAM Video Streaming and Face Recognition with Arduino IDE  
-[https://www.youtube.com/watch?v=MicAM\_A0\_lU](https://www.youtube.com/watch?v=MicAM_A0_lU)
-
-Tutorial escrito del video anterior:  
-[https://randomnerdtutorials.com/esp32-cam-video-streaming-face-recognition-arduino-ide/](https://randomnerdtutorials.com/esp32-cam-video-streaming-face-recognition-arduino-ide/)
+Sólo, en el Arduino IDE:
+0) Instala las librerías de ESP32 Arduino con el método de json en 
+1) Selecciona el modelo AI-Thinker ESP32-CAM. 
+2) Modifica el código agregando las credenciales de tu red WiFi al ejemplo.  
+3) Sube el ejemplo: ESP32 > Camera > CameraWebServer.
 
 Esta placa no cuenta con un LED de energía, por lo que cuando lo conectes no verás que encienda ninguna luz para indicar que está energizada. Tiene dos LEDs, ambos programables por software. Uno es de uso general y el otro hace las veces de "Flash" para la cámara.
 
-Cuando se está programando, es necesario conectar IO0 a tierra, antes de energizar, para entrar en modo boot.
+Puedes seguir cualquier tutorial del modelo viejo en el que se tenía que cablear el convertidor usb a la cámara, sólo ignora los pasos de puentear los cables y usa el método de presionar "boot" y "reset" para subir el sketch que se menciona arriba.
 
-El voltaje de los puertos ( y de los pines TX, RX de la UART) es de 3.3v, aunque la tarjeta tiene un pin para alimentarse con 5V. ASEGÚRATE QUE TU CONVERTIDOR USB-TTL ESTÉ CONFIGURADO CON 3.3V EN LOS PUERTOS DE COMUNICACIÓN (LÓGICA 3.3V). En muchos convertidores se cambia el voltaje a la lógica de 3.3v con un jumper. En caso que uses el convertidor usb-ttl ch340, sigue exactamente el diagrama de la parte de abajo con el jumper amarillo colocado como se indica y quedará configurado en 3.3v. Para otros convertidores consulta el manual del fabricante para saber cómo configurar a lógica 3.3v (generalmente con un jumper o a veces a través de soldadura). BAJO NINGUNA CIRCUNSTANCIA USES UN CONVERTIDOR CON SALIDAS 5V FIJAS (COMO ALGUNOS PL2303, QUE NO TIENEN FORMA DE SELECCIONAR EL VOLTAJE). SI USAS LÓGICA 5V, PROBABLEMENTE TE MARCARÁ UN ERROR O ALGUNA VEZ FUNCIONARÁ, PERO EL MÓDULO NO ESTÁ DISEÑADA PARA TOLERAR ESTO Y **EVENTUALMENTE DAÑARÁS IRREVERSIBLEMENTE LA PLACA**
+[Tutorial en inglés (página + video)](https://randomnerdtutorials.com/esp32-cam-video-streaming-face-recognition-arduino-ide/)  
 
-Diagrama de conexiones: ![esp32camCh340g](https://raw.githubusercontent.com/cosismo/esp32-cam/master/esp32ToCh340gv2.png)
+[Tutorial en español (video)](https://www.youtube.com/watch?v=WBJrXUy2HEw)  
+
+
 
 Hoja de especificaciones técnicas:  
 [https://drive.google.com/file/d/11m5DbaZ4C7bbMHccGwkEZLNfd2bzMjy7/view?usp=sharing](https://drive.google.com/file/d/11m5DbaZ4C7bbMHccGwkEZLNfd2bzMjy7/view?usp=sharing)
