@@ -69,8 +69,9 @@ Foro y mucha información:
 [https://esp32.com/](https://esp32.com/)
 
 **Problemas conocidos**
-*   "Basura" en el serial.  Si bien un error en el baudrate puede ocasionar que recibas caracteres erróneos en el monitor serial del Arduino IDE, si estás seguro de que está configurado correctamente, quizá tengas un problema de energía. Puedes hacer una prueba de cargar un sketch que consuma menos energía como el chipID para verificar que si funciona el serial a bajo consumo de corriente.
-Este modelo consume más energía que los anteriores y puede ser que no funcione con tu puerto USB, por lo que tendrás que aliemntarlo externamente. Puedes alimentar la placa a través de sus pines 5v mientras está conectado a tu laptop o puedes alimentarla directamente a un cargador USB de celular.  Para encontrar su IP, puedes buscarla en tu router o usar un escáner de red. 
+*   "Basura" en el serial.  Si bien un error en el baudrate puede ocasionar que recibas caracteres erróneos en el monitor serial del Arduino IDE, si estás seguro de que está configurado correctamente, quizá tengas un problema de energía. Puedes hacer una prueba de cargar un sketch que consuma menos energía como el chipID para verificar que si funciona el serial a bajo consumo de corriente.  
+Este modelo consume más energía que los anteriores y puede ser que no funcione con tu puerto USB, por lo que tendrás que aliemntarlo externamente. 
+Puedes alimentar la placa a través de sus pines 5v mientras está conectado a tu laptop o puedes alimentarla directamente a un cargador USB de celular.  Para encontrar su IP, puedes buscarla en tu router o usar un escáner de red. 
 
 
 Quedamos a tus órdenes por esta vía.
