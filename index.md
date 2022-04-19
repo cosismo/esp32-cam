@@ -14,7 +14,7 @@ Cómo instalar la cámara en el módulo:
 Dependiendo del lote, puede venir separada la cámara en el módulo. La instalación es un proceso muy simple, la cámara usa un conector "tipo bisagra". El siguiente video muestra cómo conectarla.  
 [https://www.youtube.com/watch?v=olSRkJEkUCU&ab\_channel=CosismoIoT](https://www.youtube.com/watch?v=olSRkJEkUCU&ab_channel=CosismoIoT)
 
-Protip: para cargar el sketch / bin a tu ESP32:  
+*   Protip: para cargar el sketch / bin a tu ESP32:  
 1) Presiona y deja presionado el botón "boot" (también conocido como "load" o "download").  
 2) Sin soltar el botón "boot", presiona y suelta el botón "reset".  
 3) Sube el sketch desde el Arduino IDE, siempre dejando presionado el botón "boot".  
@@ -22,6 +22,7 @@ Protip: para cargar el sketch / bin a tu ESP32:
 Si no sigues el procedimiento probablemente no puedas cargar el sketch y se te presentarán errores de timeout o como los que se describen en este post:  
 [https://github.com/espressif/arduino-esp32/issues/1253](https://github.com/espressif/arduino-esp32/issues/1253) 
 
+*   Programación básica
 Existen dos modelos de la esp32cam, con convertidor incluído y con convertidor separado. Dependiendo del modelo, la apariencia física es diferente, pero las instrucciones son básicamente las mismas.  
 En el Arduino IDE:  
 1) Instala las librerías de ESP32 Arduino con el método de json en preferencias. [Instalar ESP32 en Arduino IDE](https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/)  
@@ -29,21 +30,21 @@ En el Arduino IDE:
 3) Modifica el código agregando las credenciales de tu red WiFi al ejemplo.  
 4) Sube el ejemplo: ESP32 > Camera > CameraWebServer.  
 
-Esta placa no cuenta con un LED de energía, por lo que cuando lo conectes no verás que encienda ninguna luz para indicar que está energizada. Tiene dos LEDs, ambos programables por software. Uno es de uso general y el otro hace las veces de "Flash" para la cámara.
+*   Esta placa no cuenta con un LED de energía, por lo que cuando lo conectes no verás que encienda ninguna luz para indicar que está energizada. Tiene dos LEDs, ambos programables por software. Uno es de uso general y el otro hace las veces de "Flash" para la cámara.
 
-Puedes seguir cualquier tutorial del modelo viejo en el que se tenía que cablear el convertidor usb a la cámara, sólo ignora los pasos de puentear los cables y usa el método de presionar "boot" y "reset" para subir el sketch que se menciona arriba.
+*   Puedes seguir cualquier tutorial del modelo viejo en el que se tenía que cablear el convertidor usb a la cámara, sólo ignora los pasos de puentear los cables y usa el método de presionar "boot" y "reset" para subir el sketch que se menciona arriba.
 
 [Tutorial en inglés (página + video)](https://randomnerdtutorials.com/esp32-cam-video-streaming-face-recognition-arduino-ide/)  
 
 [Tutorial en español (video)](https://www.youtube.com/watch?v=WBJrXUy2HEw)  
 
-
+*   Drivers USB
 [Drivers Windows, Mac, Linux CH340G](https://www.geekfactory.mx/tutoriales-arduino/driver-ch340-para-arduino-chinos-o-genericos/)
 
-Hoja de especificaciones técnicas:  
+*   Hoja de especificaciones técnicas:  
 [https://drive.google.com/file/d/11m5DbaZ4C7bbMHccGwkEZLNfd2bzMjy7/view?usp=sharing](https://drive.google.com/file/d/11m5DbaZ4C7bbMHccGwkEZLNfd2bzMjy7/view?usp=sharing)
 
-Ejemplos de cientos de proyectos para la ESP32-CAM en Github  
+*   Ejemplos de cientos de proyectos para la ESP32-CAM en Github  
 [https://github.com/search?o=desc&q=esp32-cam&s=stars&type=Repositories](https://github.com/search?o=desc&q=esp32-cam&s=stars&type=Repositories)
 
 *   Información general sobre el ESP32:
@@ -67,6 +68,8 @@ Librerías oficiales Arduino:
 Foro y mucha información:  
 [https://esp32.com/](https://esp32.com/)
 
+*   Problemas conocidos
+*   
 Quedamos a tus órdenes por esta vía.
 
 ¡Suerte!  
