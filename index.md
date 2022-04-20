@@ -49,8 +49,10 @@ En el Arduino IDE:
 
 **Información general sobre el ESP32:**
 
-Libro electrónico sobre el ESP32:  
-[https://drive.google.com/file/d/11-IH-38VJOXbFJ1ybB1i2Cvcl9n3pSTU/view](https://drive.google.com/file/d/11-IH-38VJOXbFJ1ybB1i2Cvcl9n3pSTU/view)
+* **LIBRO ELECTRÓNICO**.
+### Descargar libro electrónico PDF
+[Libro electrónico sobre el ESP32](https://drive.google.com/file/d/11-IH-38VJOXbFJ1ybB1i2Cvcl9n3pSTU/view)  
+[Otro Libro](https://archive.org/details/foo_20210223)
 
 Listas con decenas de videos con ejemplos y código de proyectos con ESP32:  
 Tutoriales básicos en español:  
